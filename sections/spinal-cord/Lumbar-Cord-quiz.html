@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Lumbar Spinal Cord Quiz</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/skeleton.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <script src="../../assets/js/jquery-3.1.0.js"></script>
+    <script src="../../assets/js/jquery.rwdImageMaps.min.js"></script>
+    <script src="../../assets/js/objects.js"></script>
+    <script src="../../assets/js/brainsInBoxes.js"></script>
+    <script src="../../assets/js/quiz.js"></script>
+    <script src="../../assets/js/preventTextHl.js"></script>
+	
+	<!-- UPDATE IMAGE FOR EACH MODULE-->
+	<style>
+		.svg-container {
+			background-image:url("section-assets/Lumbar-Cord.png");
+	}
+	</style>
+</head>
+<body>
+<!--<hr/>-->
+<header class="row noselect">
+	<div class="two columns" style="background-color: #00274c">
+		<img src="../../assets/images/umlogo.png"/>
+	</div>
+
+	<div class="eight columns">
+		<h1>Lumbar Spinal Cord Quiz</h1>
+	</div>
+	<div class="two columns"></div>	
+</header>
+<main class="container">
+    <div class="row">
+        <div class="test-data four columns">
+            <div class="mobile-center noselect">
+                <ol class="test-questions">
+                    <li><span>Select the <b>Dorsal horn</b></span></li>
+					<li><span>Select the <b>Lumbar enlargment</b></span></li>
+					<li><span>Select the <b>Ventral fasciculus</b></span></li>
+					<li><span>Select the <b>Lateral fasciculus</b></span></li>
+					<li><span>Select the <b>Dorsal funiculus (fasciculus)</b></span></li>
+                </ol>
+                <div class="feedback noselect hidden">
+                    <div class="feedback-text"></div>
+                    <button class="next">
+                        <div class="noselect">Next Question</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="eight columns"> <!--split-border>-->
+            <div class="svg-container mobile-center">
+                <svg viewBox="0 0 901 655" preserveAspectRatio="xMidYMid meet">
+
+                    <g data-group="1" class="test-answer-0">
+					    <path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M550.2,295.06q-8.77-.74-17.49-1.92c-12.68-1.71-22.66-4.46-23-19.89-0.11-5.38,1.33-10.64,2.37-15.92,4.34-22,2-45.49,10.57-66.21,5.94-14.35,14.73-25.19,26.57-35.24,8.27-7,19.35-12.4,29.74-15.51,12.72-3.81,26.35-4.44,39.55-5.86,25.19-2.72,48-17.26,63.26-37.5,1.76-2.34,4.3-5.07,7.05-4.1a6.74,6.74,0,0,1,2.56,2c6,6.57,13.07,14.14,19.11,20.71,1.52,1.66,3.13,3.52,3.2,5.76,0.11,3.57-3.52,5.93-6.6,7.72C684.95,142,668.51,162.53,653,182.89c-18.84,24.68-35.85,51.5-38.51,82.43-1.82,21.23-12.68,31-34.5,31Q565.06,296.32,550.2,295.06Z"></path>
+						<path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M743.15,70.71c0-9.65,11.14-16.71,21.27-9,7.71,10.13.66,21.27-9,21.27a12.28,12.28,0,0,1-12.28-12.28"></path>
+                    </g>
+
+                    <g data-group="2" class="test-answer-1">
+					    <path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M692.18,305.44a10.91,10.91,0,0,1,2.6-.05c23.68,3,49.07,6.53,64.87,26.26,2.52,3.15,3.26,8.6,3.06,12.92-1.23,25.62-2,51.8-14.17,74.9-9.59,18.17-23.22,34-46.05,36-5.9.52-12.17-1.53-18.08-3.11-15.8-4.22-30.1-12.15-45-18.65-11.7-5.11-17.65-14.76-19.44-25.87-4-24.81-2.11-62.1,18.09-80.83,5.06-4.69,11.43-8.14,17.61-11.38a78.81,78.81,0,0,1,18.87-6.72C678.68,308,687.18,306,692.18,305.44Z"></path>
+						<path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M863.15,361.71c0-9.65,11.14-16.71,21.27-9,7.71,10.13.66,21.27-9,21.27a12.28,12.28,0,0,1-12.28-12.28"></path>
+                    </g>
+
+                    <g data-group="3" class="test-answer-2">
+					    <path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M444.44,461.53c1.17,21.23-1.22,41.76-12.24,59.75-6.91,11.28-20.12,18.17-30.71,25.72-12.11,8.63-26.24,12.65-40,16.91-22,6.8-44.27,13.43-66.9,17.46-20.83,3.71-42.26,4.49-63.47,5.4a203,203,0,0,1-36.47-2.24c-10.55-1.47-20.81-4.89-31.25-7.22-7.6-1.7-15.55-2.25-22.86-4.74-5.56-1.9-10.64-5.66-15.38-9.31a29.61,29.61,0,0,1-8.08-9.45c-3.35-6.45-1.94-15.48,3.78-21.79C130,521.88,141.78,516,154,510.62c11.37-5,23.79-7.16,36.44-8A270.47,270.47,0,0,0,256,490.1c16.16-5.29,31.71-18.5,47.33-25.31a260.52,260.52,0,0,0,27.21-13.61C348.36,440.77,363,427,367.21,406c1.89-9.43,1.37-11.57,1.08-21.38-0.14-4.71-1-9.41-1.54-14.11-1.37-12.82,6.63-29.3,18.94-33.15,12.79-4,35.25,7,44.26,17.25,6.8,7.75,4.74,18.16,5.17,27.49,0.54,11.58.95,23.87,3,35.34q4,22,7.93,43.93Z"></path>
+						<path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M323.72,627c0-9.65,11.14-16.71,21.27-9,7.71,10.13.66,21.27-9,21.27A12.28,12.28,0,0,1,323.72,627"></path>
+                    </g>
+					
+					
+                    <g data-group="4" class="test-answer-3">
+					    <path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M65.71,418.72c0.44-22.43,2.5-44.6,7.9-66.26,5-19.9,10.06-40,20.19-58.09,8.47-15.14,18.06-29.73,27.83-44.12,8.41-12.39,17.89-24.08,26.62-36.27,2.19-3.05,3.26-6.86,5-10.27,1.37-2.76,2.87-5.46,4.4-8.15,2.24-3.94,5.17-7.63,6.69-11.82,2.62-7.22,7.53-11.63,14.31-15.09,9.22-4.7,18.32-2.78,27.56-.94,2.54,0.5,5,1.46,7.5,2a23,23,0,0,1,12.66,7.21c6.3,6.89,13.84,12.68,20.4,19.36,6.33,6.45,10.64,14.2,14.32,22.47,3.77,8.48,9.56,16.11,13.2,24.63,4,9.35,7.56,19.1,9.38,29,1.66,9-2,17.57-8.73,24.41-9,9.17-20.4,13.53-32.88,16.08-14.89,3-29.94,5.8-44.43,10.2-16.59,5-37.6,9.39-48.13,24.54-5.72,8.23-12.87,15.58-16.36,24.78a45.92,45.92,0,0,0,.52,33.11c4.86,11.74,13.18,25,20.19,35.49,7.74,11.56,4.79,21.91-.48,31.86C145.88,487,136,499.66,122.77,509.23c-7.11,5.15-17.42,12-27.08,10.72-3.6-.49-8.07-2.61-10-5.41C74.73,499,69.06,481.29,66.75,462.67,65,448.41,67,433,65.71,418.72Z"></path>
+						<path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M15.72,280c0-9.65,11.14-16.71,21.27-9,7.71,10.13.66,21.27-9,21.27A12.28,12.28,0,0,1,15.72,280"></path>
+                    </g>
+
+                    <g data-group="5" class="test-answer-4">
+					    <path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M458.82,147.7c3-22.9,1.87-47.7-11.06-66.82C443,73.81,436.5,67.63,428.54,64.54c-5.24-2-10.9-2.67-16.5-3.15Q395,59.9,377.87,60c-33.69.15-70.71,2.85-101.71,17.07-9.78,4.49-21.47,10.49-17.48,22.58,2.72,8.23,10.7,17.45,18,22.12,12,7.7,26.53,10,40.67,11.49S346,135.82,359,141.55c4.88,2.15,9.74,5.22,11.94,10.07,1.48,3.28,1.57,7,1.67,10.58,0.79,30.63,1.88,62.37,9.67,92.14,1.46,5.58,3.23,11.17,6.44,16,9.69,14.46,35.36,14,49.57,7.33,19.59-9.22,9.77-44.3,10.31-61.49C449.31,193.07,455.85,170.6,458.82,147.7Z"></path>
+						<path class="clickable_SVG fill" fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M334.72,21c0-9.65,11.14-16.71,21.27-9,7.71,10.13.66,21.27-9,21.27A12.28,12.28,0,0,1,334.72,21"></path>
+                    </g>
+                    
+					
+                </svg>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <table class="u-full-width">
+                <tbody>
+                <td>
+                    <h5 class="noselect">Correct: <span class="correct"></span></h5>
+                </td>
+                <td>
+                    <h5 class="noselect">Incorrect: <span class="incorrect">0</span></h5>
+                </td>
+                </tbody>
+            </table>
+        </div>
+    </nav>
+</main>
+            <footer>
+				&nbsp;
+			</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93090636-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
